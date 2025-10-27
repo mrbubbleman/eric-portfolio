@@ -11,7 +11,7 @@ export default function Portfolio() {
     email: "mailto:elee01919@gmail.com",
     linkedin: "https://www.linkedin.com/in/eric-lee-el9/",
     github: "https://github.com/mrbubbleman", 
-    resume: "/resume" 
+    resume: "/Eric_Resume.pdf" 
   };
 
   const skills = [
