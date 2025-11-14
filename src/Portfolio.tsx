@@ -13,14 +13,48 @@ export default function Portfolio() {
     github: "https://github.com/mrbubbleman", 
     resume: "/Eric_Resume.pdf" 
   };
-
   const skills = [
-    "Python", "C", "C#", "JavaScript", "TypeScript", "React", "Tailwind", "Node.js",
-    ".NET", "Java", "SQL", "MongoDB", "Firebase", "AWS", "Spring Boot",
-    "FastAPI", "Docker", "NumPy", "pandas", "Plotly", "Matplotlib",
-    "scikit-learn", "PyTorch", "TensorFlow", "MediaPipe", "Django", "Flask",
-    "Android SDK"
+  "Python",
+  "C",
+  "C++",
+  "C#",
+  "JavaScript",
+  "TypeScript",
+  "Java",
+  "SQL",
+  "HTML/CSS",
+  "React",
+  "Angular",
+  "Vue.js",
+  "Node.js",
+  "Next.js",
+  "Express",
+  ".NET",
+  "Spring Boot",
+  "FastAPI",
+  "Django",
+  "Flask",
+  "Tailwind",
+  "Android SDK",
+  "Docker",
+  "AWS",
+  "Nginx",
+  "Firebase",
+  "MongoDB",
+  "PostgreSQL",
+  "MySQL",
+  "Git/GitHub",
+  "CI/CD",
+  "NumPy",
+  "pandas",
+  "Plotly",
+  "Matplotlib",
+  "scikit-learn",
+  "PyTorch",
+  "TensorFlow",
+  "MediaPipe"
   ];
+
 
   const experience = [
     {
