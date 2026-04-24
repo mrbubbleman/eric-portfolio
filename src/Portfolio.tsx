@@ -56,41 +56,51 @@ export default function Portfolio() {
   ];
 
 
-  const experience = [
-    {
-      role: "Data Scientist",
-      company: "Dell Technologies",
-      location: "Toronto, Ontario (Remote)",
-      period: "Apr 2024 – Present",
-      bullets: [
-        "Redesigned internal Python API layers with FastAPI + async I/O, reducing request overhead by ~30%.",
-        "Trained and tuned ML models (Random Forest, XGBoost) for NBA player position prediction (≈81% accuracy).",
-        "Built an open-source Jupyter workflow for NBA API pipelines and visualization; boosted concurrent users by >50%."
-      ]
-    },
-    {
-      role: "Software Programmer Student",
-      company: "City of Calgary",
-      location: "Calgary, Alberta",
-      period: "May 2025 – Aug 2025",
-      bullets: [
-        "Helped develop an internal Azure-based chatbot to streamline access to org resources.",
-        "Contributed across 100+ tickets focused on SQL/data tasks; consistently hit deadlines.",
-        "Migrated VBScript to .NET for internal automations, improving performance & maintainability."
-      ]
-    },
-    {
-      role: "Data Scientist Intern",
-      company: "Cybera",
-      location: "Calgary, Alberta",
-      period: "May 2023 – Apr 2024",
-      bullets: [
-        "Implemented NLP pipelines with Python/BeautifulSoup across 10+ APIs for gov voting notebooks.",
-        "Built KNN & Linear Regression for Alberta water-level prediction (≈93% accuracy).",
-        "Refactored tax calculation pipelines using vectorized NumPy; ~50% latency reduction."
-      ]
-    }
-  ];
+const experience = [
+  {
+    role: "Developer",
+    company: "City of Calgary",
+    location: "Calgary, Alberta",
+    period: "Feb 2026 – Present",
+    bullets: [
+      "Designed and deployed automated email workflows using Outlook API + Power Automate, delivering communications to 2,000+ users and saving ~40 hours of manual effort.",
+      "Built an automated CEIP reporting pipeline integrating external REST APIs with Excel via Power Automate, reducing manual processing by 50+ hours."
+    ]
+  },
+  {
+    role: "Data Scientist",
+    company: "Dell Technologies",
+    location: "Toronto, Ontario",
+    period: "Apr 2024 – Present",
+    bullets: [
+      "Redesigned internal Python API layers with FastAPI + async I/O, reducing request overhead by ~30%.",
+      "Trained and tuned ML models (Random Forest, XGBoost) for NBA player position prediction (≈81% accuracy).",
+      "Built an open-source Jupyter workflow for NBA API pipelines and visualization; boosted concurrent users by >50%."
+    ]
+  },
+  {
+    role: "Programmer Analyst Student",
+    company: "City of Calgary",
+    location: "Calgary, Alberta",
+    period: "May 2025 – Aug 2025",
+    bullets: [
+      "Helped develop an internal Azure-based chatbot to streamline access to org resources.",
+      "Contributed across 100+ tickets focused on SQL/data tasks; consistently hit deadlines.",
+      "Migrated VBScript to .NET for internal automations, improving performance & maintainability."
+    ]
+  },
+  {
+    role: "Data Scientist Intern",
+    company: "Cybera",
+    location: "Calgary, Alberta",
+    period: "May 2023 – Apr 2024",
+    bullets: [
+      "Implemented NLP pipelines with Python/BeautifulSoup across 10+ APIs for gov voting notebooks.",
+      "Built KNN & Linear Regression for Alberta water-level prediction (≈93% accuracy).",
+      "Refactored tax calculation pipelines using vectorized NumPy; ~50% latency reduction."
+    ]
+  }
+];
 
   const projects = [
     {
@@ -328,7 +338,7 @@ function ContactCard({ links }: { links: Record<string, string> }) {
     <div className="flex flex-col gap-4 rounded-2xl border border-neutral-900/60 bg-neutral-950/40 p-6 sm:flex-row sm:items-center sm:justify-between">
       <div>
         <h3 className="text-base font-medium text-neutral-100">Let’s connect</h3>
-        <p className="mt-1 text-sm text-neutral-400">Open to internships, full-time roles, and collaborations.</p>
+        <p className="mt-1 text-sm text-neutral-400">Open to full-time roles, and collaborations.</p>
       </div>
       <div className="flex flex-wrap gap-2">
         <a href={links.email} className="rounded-xl bg-neutral-100 px-4 py-2 text-neutral-900 hover:bg-white transition">
