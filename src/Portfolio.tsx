@@ -69,6 +69,16 @@ const experience = [
     ]
   },
   {
+    role: "Software Engineer",
+    company: "City of Calgary",
+    location: "Calgary, Alberta",
+    period: "May 2025 – Aug 2025",
+    bullets: [
+      "Reduced manual reporting effort across internal units by developing and optimizing SQL stored procedures and automated query workflows, achieving 100% test coverage with zero QA failures",
+      "Eliminated manual water-temperature data collection for Water Services team, cutting processing time by 20 hours/week, by building a SQL-based Azure Logic Apps pipeline with Python to ingest and validate sensor data",
+    ]
+  },
+    {
     role: "Data Scientist",
     company: "Dell Technologies",
     location: "Toronto, Ontario",
@@ -77,16 +87,6 @@ const experience = [
       "Developed 15+ production ETL pipelines using Python, SQL, and Pandas to clean, transform, and engineer features from large-scale NBA datasets for machine learning applications",
       "Built and evaluated 20+ machine learning models for NBA game outcomes, applying feature selection, model tuning, and cross-validation to improve predictive performance",
       "Tasked with optimizing API endpoints using asynchronous Python and FastAPI, improving concurrent data retrieval by 35% for ML workflows"
-    ]
-  },
-  {
-    role: "Software Engineer",
-    company: "City of Calgary",
-    location: "Calgary, Alberta",
-    period: "May 2025 – Aug 2025",
-    bullets: [
-      "Reduced manual reporting effort across internal units by developing and optimizing SQL stored procedures and automated query workflows, achieving 100% test coverage with zero QA failures",
-      "Eliminated manual water-temperature data collection for Water Services team, cutting processing time by 20 hours/week, by building a SQL-based Azure Logic Apps pipeline with Python to ingest and validate sensor data",
     ]
   },
   {
