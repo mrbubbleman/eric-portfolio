@@ -63,40 +63,40 @@ const experience = [
     location: "Calgary, Alberta",
     period: "Feb 2026 – Present",
     bullets: [
-      "Designed and deployed automated email workflows using Outlook API + Power Automate, delivering communications to 2,000+ users and saving ~40 hours of manual effort.",
-      "Built an automated CEIP reporting pipeline integrating external REST APIs with Excel via Power Automate, reducing manual processing by 50+ hours."
+      "Automated structured data extraction from unstructured PDF/JPG forms, eliminating manual entry for 1000+ forms in 2 months, by building an AI-model-based parsing service integrated into an alerting pipeline",
+      "Reduced manual data processing by 50+ hours by building a REST API pipeline to automate agreement reporting",
+      "Designed and deployed an automated email distribution workflow using Outlook API to deliver communications to 2,000+ internal users, eliminating manual entry and reducing processing time by an estimated 40 hours"
     ]
   },
   {
     role: "Data Scientist",
     company: "Dell Technologies",
     location: "Toronto, Ontario",
-    period: "Apr 2024 – Present",
+    period: "April 2025 – May 2025",
     bullets: [
-      "Redesigned internal Python API layers with FastAPI + async I/O, reducing request overhead by ~30%.",
-      "Trained and tuned ML models (Random Forest, XGBoost) for NBA player position prediction (≈81% accuracy).",
-      "Built an open-source Jupyter workflow for NBA API pipelines and visualization; boosted concurrent users by >50%."
+      "Developed 15+ production ETL pipelines using Python, SQL, and Pandas to clean, transform, and engineer features from large-scale NBA datasets for machine learning applications",
+      "Built and evaluated 20+ machine learning models for NBA game outcomes, applying feature selection, model tuning, and cross-validation to improve predictive performance",
+      "Tasked with optimizing API endpoints using asynchronous Python and FastAPI, improving concurrent data retrieval by 35% for ML workflows"
     ]
   },
   {
-    role: "Programmer Analyst Student",
+    role: "Software Engineer",
     company: "City of Calgary",
     location: "Calgary, Alberta",
     period: "May 2025 – Aug 2025",
     bullets: [
-      "Helped develop an internal Azure-based chatbot to streamline access to org resources.",
-      "Contributed across 100+ tickets focused on SQL/data tasks; consistently hit deadlines.",
-      "Migrated VBScript to .NET for internal automations, improving performance & maintainability."
+      "Reduced manual reporting effort across internal units by developing and optimizing SQL stored procedures and automated query workflows, achieving 100% test coverage with zero QA failures",
+      "Eliminated manual water-temperature data collection for Water Services team, cutting processing time by 20 hours/week, by building a SQL-based Azure Logic Apps pipeline with Python to ingest and validate sensor data",
     ]
   },
   {
-    role: "Data Scientist Intern",
+    role: "Data Scientist",
     company: "Cybera",
     location: "Calgary, Alberta",
-    period: "May 2023 – Apr 2024",
+    period: "May 2023 – April 2024",
     bullets: [
-      "Implemented NLP pipelines with Python/BeautifulSoup across 10+ APIs for gov voting notebooks.",
-      "Built KNN & Linear Regression for Alberta water-level prediction (≈93% accuracy).",
+      "Built NLP data pipelines to power government voting analytics, integrating 10+ external APIs and automating data extraction in Python using BeautifulSoup",
+      "Achieved 93% prediction accuracy for Alberta water levels by developing KNN and linear regression models, packaged as reusable, production-ready Python modules",
       "Refactored tax calculation pipelines using vectorized NumPy; ~50% latency reduction."
     ]
   }
